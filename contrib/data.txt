@@ -1,0 +1,13 @@
+Informatic:interest
+    development -> Coons:project
+        realisation -> coons:web service
+            dependency -> invenio:software
+            dependency -> flask:software
+        realisation -> coons-ui:software
+            dependency -> angular:software
+        realisation -> coons-cli:software
+            dependency -> poetry:software
+    skills -> python:language
+        example -> misc:snippet
+        documentation -> python:web page
+    skills -> typescript:language
